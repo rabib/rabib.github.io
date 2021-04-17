@@ -7,7 +7,6 @@ module.exports = {
       process.env.DEV_ENV === 1
         ? `https://rabibislam.com`
         : `https://rabibislam.com`,
-    image: `/images/og-card.png`,
     twitterUsername: `@___rabib___`,
   },
   plugins: [
