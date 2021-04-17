@@ -16,7 +16,7 @@ const IndexPage = () => (
       <h1 className="mt-12 lg:mt-0 max-w-3xl text-3xl sm:text-4xl text-primary font-semibold sm:text-left md:text-center lg:text-left">
         Hey, I’m Rabib.
         <br className="mb-6 lg:hidden" /> 
-        I’m an experienced game developer with deep interest in modern web development.
+         I'm interested in cryptography and data science.
       </h1>
       <div className="relative">
         <Blob />
