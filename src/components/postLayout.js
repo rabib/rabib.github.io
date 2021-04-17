@@ -14,7 +14,7 @@ const shortcodes = {
   Link,
 }
 
-const PostLayout = ({ data: { mdx, ogImage } }) => {
+const PostLayout = ({ data: { mdx } }) => {
   return (
     <Layout activePage="blog">
       <SEO
@@ -48,7 +48,7 @@ const PostLayout = ({ data: { mdx, ogImage } }) => {
 }
 
 export const pageQuery = graphql`
-  query blogPostQuery($id: String, $ogImageSlug: String) {
+  query blogPostQuery($id: String) {
     mdx(id: { eq: $id }) {
       id
       body
@@ -62,13 +62,6 @@ export const pageQuery = graphql`
       excerpt(pruneLength: 140)
       tableOfContents
       timeToRead
-    }
-    ogImage: file(relativePath: { eq: $ogImageSlug }) {
-      childImageSharp {
-        fixed(width: 1280) {
-          src
-        }
-      }
     }
   }
 `
