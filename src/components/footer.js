@@ -47,7 +47,7 @@ const Footer = _ => {
               </span>
               <span>
                 <a
-                  href="https://github.com/jeffjadulco"
+                  href="https://github.com/rabib"
                   aria-label="Visit GitHub profile"
                   title="Visit GitHub profile"
                   target="_blank"
