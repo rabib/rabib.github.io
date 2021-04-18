@@ -60,7 +60,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "deploy": "gatsby build && gh-pages -d public -b main"
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "repository": {
     "type": "git",
