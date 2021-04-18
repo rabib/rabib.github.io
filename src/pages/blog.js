@@ -15,7 +15,7 @@ const Blog = () => {
         find interesting.
       </p>
       <PostList />
-      <Newsletter />
+      {/*<Newsletter />*/}
     </Layout>
   )
 }

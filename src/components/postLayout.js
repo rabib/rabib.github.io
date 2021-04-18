@@ -42,7 +42,7 @@ const PostLayout = ({ data: { mdx } }) => {
           </aside>
         )}
       </div>
-      <Newsletter />
+      {/*<Newsletter />*/}
     </Layout>
   )
 }
