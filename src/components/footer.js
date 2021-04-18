@@ -30,8 +30,8 @@ const Footer = _ => {
             <div className="flex flex-row items-center space-x-4 justify-center md:justify-end">
               <span>
                 <a
-                  href="mailto:hey@jeffjadulco.com"
-                  aria-label="Email hey@jeffjadulco.com"
+                  href="mailto:risla zero two eight at uottawa.ca"
+                  aria-label="Email me"
                   title="Email"
                 >
                   <svg
