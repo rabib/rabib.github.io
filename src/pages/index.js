@@ -34,7 +34,6 @@ const IndexPage = () => (
       </div>
     </div>
     <PostList showHeading />
-    <ProjectList showHeading />
     <Contact />
   </Layout>
 )
