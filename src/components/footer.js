@@ -13,9 +13,6 @@ const Footer = _ => {
             <NavLink to="/blog" title="Blog">
               Blog
             </NavLink>
-            <NavLink to="/projects" title="Projects">
-              Projects
-            </NavLink>
             <NavLink to="/about" title="About">
               About
             </NavLink>
