@@ -38,7 +38,7 @@ function SEO({ description, lang, meta, title, blog }) {
     title: title || defaultTitle,
     titleTemplate: title
       ? `%s | ${defaultTitle}`
-      : `${defaultTitle} | Game and Javascript Developer`,
+      : `${defaultTitle} | Cryptographer`,
     description: description || defaultDescription,
     url: `${siteUrl}`,
   }
